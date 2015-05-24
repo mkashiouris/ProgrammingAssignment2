@@ -1,7 +1,6 @@
-## Put comments here that give an overall description of what your
-## functions do
+## This is an inverse matrix R code for Coursera Programming Assignment #2
 
-## Write a short comment describing this function
+## This function creates a list of the functions set, get, set_inverse and get_inverse
 
 makeCacheMatrix <- function(x = matrix()) {
     inv <- NULL
@@ -16,7 +15,7 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 
-## Write a short comment describing this function
+## This function, checks if there is cached data, or inverses the matrix.
 
 cacheSolve <- function(x, ...) {
     inv <- x$get_inverse()
